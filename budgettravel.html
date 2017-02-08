@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Travel booking System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+	   <link href="styles.css" rel="stylesheet">
+     
+	
+
+
+  
+  </head>
+  <body>
+  	<div class="header">
+	     <div class="container">
+	        <div class="row">
+	           <div class="col-md-5">
+	              <!-- Logo -->
+	              <div class="logo">
+	                 <h1><a href="index.html">Travel Booking System</a></h1>
+	              </div>
+	           </div>
+	           <div class="col-md-5">
+	              <div class="row">
+	                <div class="col-lg-12">
+	                  
+	                </div>
+	              </div>
+	           </div>
+	           <div class="col-md-2">
+	              <div class="navbar navbar-inverse" role="banner">
+	                  <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
+	                    <ul class="nav navbar-nav">
+	                      <li class="dropdown">
+	                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Accoun<span class="caret"></span></a>
+	                        <ul class="dropdown-menu ">
+	                          <li><a href="profile.html">Profile</a></li>
+	                          <li><a href="login.html">Logout</a></li>
+	                        </ul>
+	                      </li>
+	                    </ul>
+	                  </nav>
+	              </div>
+	           </div>
+	        </div>
+	     </div>
+	</div>
+
+    <div class="page-content">
+    	<div class="row">
+		  <div class="col-md-2">
+		  	<div class="sidebar content-box" style="display: block;">
+                <ul class="nav">
+                    <!-- Main menu -->
+                    <li ><a href="index.html"><i class="glyphicon glyphicon-home"></i> Dashboard</a></li>
+                    <li><a href="creativeplan.html"><i class="glyphicon glyphicon-calendar"></i> Creat Travel Plan</a></li>
+                    <li class="current"><a href="budgettravel.html"><i class="glyphicon glyphicon-book"></i> Travel Budget</a></li>
+                    <li><a href="task.html"><i class="glyphicon glyphicon-tasks"></i>My Task </a></li>
+                   
+                    <li><a href="directory.html"><i class="glyphicon glyphicon-list"></i> Staff Directory</a></li>
+                    
+                    
+                </ul>
+             </div>
+		  </div>
+		  <div class="col-md-10">
+		  				<div class="col-md-6">
+	  					<div class="content-box-large">
+			  				<div class="panel-heading">
+					            <div class="panel-title">Travel Plan Budget</div>
+					          
+					            
+					        </div>
+			  				<div class="panel-body">
+			  					<form id="budgetf" method="POST" action="" >
+									<fieldset>
+										<div class="form-group">
+											<label>Travel reference </label>
+											<input type="number" class="form-control" id="travel" name="travel"  placeholder="The refernce number issued after submitting travel plan"  required >
+										</div>
+										<div class="form-group">
+											<label>Cost Budget</label>
+											<input  type="number" class="form-control" id="cost" name="cost"  placeholder="Total Allocated Travel Budget for the year"  required >
+										</div>
+										
+										<div class="form-group">
+											<label>Percentage</label>
+											<input  type="text" class="form-control" id="percent" name="percent"  placeholder="Percentage of travel budget spent"  required >
+										</div>
+										<div class="form-group">
+											<label>Annual budget </label>
+											<input  type="number" class="form-control" id="annual" name="annual"  placeholder="Total Allocated Travel Budget for the year"  required >
+										</div>
+										<div class="form-group">
+											<label>Budget Balance </label>
+											<input  type="number" class="form-control" id="balance" name="balance"  placeholder="Travel Budget Balance as at (give date and balance figure)"  required >
+										</div>
+									</fieldset>
+									<div class="form-group">
+								
+										<button type="submit" class="btn btn-primary" name="signup1" value="Sign up">Submit</button>
+								
+									</div>
+								</form>
+			  				</div>
+			  			</div>
+	  				</div>
+									<div class="col-md-6">
+	  					<div class="content-box-large">
+			  				<div class="panel-heading">
+					            <div class="panel-title">Project</div>
+					          
+					         
+					        </div>
+			  				<div class="panel-body">
+			  					<form action="" method="POST">
+									<fieldset>
+										<div class="form-group">
+											<label>Work ID</label>
+											<input  type="number"  class="form-control" placeholder="work id"required>
+										</div>
+										<div class="form-group">
+											<label>Travel Reference</label>
+											<input   type="number" class="form-control" placeholder="travel plan reference number"  required >
+										</div>
+										
+										<div class="form-group">
+											<label>Period</label>
+											<input type="number" class="form-control" placeholder="Percentage of travel budget spent"  required>
+										</div>
+										<div class="form-group">
+											<label>Mission destination </label>
+											<input  type="text" class="form-control" placeholder="Regional office of the mission destination" type="text" required>
+										</div>
+										<div class="form-group">
+											<label>Project Type</label>
+											<textarea class="form-control" placeholder="project description" rows="3" required> </textarea>
+										</div>
+									</fieldset>
+									<div class="form-group">
+								
+										<button type="submit" class="btn btn-primary" name="signup2" value="Sign up">Submit</button>
+							
+									</div>
+									
+								</form>
+			  				</div>
+			  			</div>
+	  				</div>
+
+		  	</div>
+    </div>
+
+    <footer>
+         <div class="container">
+         
+            <div class="copy text-center">
+               Copyright 2017 <a href='#'>Travel booking system</a>
+            </div>
+            
+         </div>
+      </footer>
+   <script type="text/javascript">
+	
+			
+	</script>
+  </body>
+</html>
